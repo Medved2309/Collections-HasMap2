@@ -9,7 +9,7 @@ public class Main {
         while (true) {
             System.out.println("Введите слово:");
             String line = scanner.nextLine();
-            System.out.println("В тексте слово: " + line + " " + (wordsChecker.hasWord(line) ? "Есть" : "Отсутвует"));
+            System.out.println("В тексте слово: " + line + " " + (wordsChecker.hasWord(line) ? "Есть" : "Отсутствует"));
         }
     }
 }
